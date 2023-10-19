@@ -93,4 +93,22 @@ border-radius: 4px;
     background-image: url(../img/turtle.png);
    
 }
+/*overlay*/
+.page-home-overlay{
+    margin-bottom: 100px;
+}
+.overlay-container{
+    height: 500px;
+background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0.2),
+    rgba(0, 255, 0, 0.2) 
+    ),
+    url(../img/fish.jpeg)
+;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+outline: 1px solid black;
+}
 
